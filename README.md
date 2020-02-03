@@ -197,23 +197,23 @@ These steps will guide you to integrate Java Eclipse with Hadoop.
 * Open the result:
     * Run `bin/hadoop fs -ls MRDir3`
   
-    Output:
-    ```
-       Found 3 items
-       -rw-r--r--   1 san supergroup          0 2020-02-03 13:27 /user/san/MRDir3/_SUCCESS
-       drwxr-xr-x   - san supergroup          0 2020-02-03 13:27 /user/san/MRDir3/_logs
-       -rw-r--r--   1 san supergroup         26 2020-02-03 13:27 /user/san/MRDir3/part-r-00000
-    ```
+      Output:
+      ```
+      Found 3 items
+      -rw-r--r--   1 san supergroup          0 2020-02-03 13:27 /user/san/MRDir3/_SUCCESS
+      drwxr-xr-x   - san supergroup          0 2020-02-03 13:27 /user/san/MRDir3/_logs
+      -rw-r--r--   1 san supergroup         26 2020-02-03 13:27 /user/san/MRDir3/part-r-00000
+      ```
 
     * Run the final command to see the output
       `bin/hadoop fs -cat MRDir3/part-r-00000`
 
-    Output:
-    ```
-    HELLO	10
-    HI	10
-    WHATSUP	10
-    ``` 
+      Output:
+      ```
+      HELLO	10
+      HI	10
+      WHATSUP	10
+      ``` 
 
 
 
